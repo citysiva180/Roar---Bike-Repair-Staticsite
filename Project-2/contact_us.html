@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact - Bike Repair Dublin, Ireland</title>
+    <meta
+      name="description"
+      content="Contact details for Roar - 57 Moyglare Abbey, Dubline, w23c1k2. Phone +353 5465481"
+    />
+    <!-- This is eric meyers CSS Reset sheet.  -->
+    <link rel="stylesheet" href="css-reset.css" />
+
+    <!-- This would be my custom built css sheet. -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Add other assets and elements such as fonts in this area -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9c676f63d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <!-- The body starts here holding all the components -->
+  <body>
+    <!-- Once the container is enabled with flex option all the flex functionality is turned on-->
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="logo-roar-bikes.svg" alt="Companylogo" />
+          </a>
+        </div>
+
+        <!-- <div class="navbar1">
+          <p>Book Online Contact About</p>
+        </div> -->
+
+        <nav>
+          <div class="navbutton">
+            <a href="#">Book Online</a>
+
+            <div class="newbox">
+              <div class="dropdown">
+                <div class="navbutton"><a href="#">Onsite Service</a></div>
+                <div class="navbutton"><a href="#">Parts Delivery</a></div>
+                <div class="navbutton"><a href="#">Request Callback</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbutton">
+            <a href="#">About</a>
+          </div>
+
+          <div class="navbutton">
+            <a href="contact-us.html">Contact</a>
+          </div>
+        </nav>
+      </header>
+      <div class="main2">
+        <h1>Contact us</h1>
+        <p>
+          Do you have any questions? Please do not hesitate to contact us
+          directly. Our team will come back to you within a matter of hours to
+          help you.
+        </p>
+
+        <form action="mail.php" method="post">
+          <div class="newline">
+            <label for="name">First Name</label>
+          </div>
+
+          <div class="inputwrapper">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+
+          <br />
+          <div class="newline">
+            <label for="email">Email</label>
+          </div>
+          <div class="inputwrapper">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Enter Your Email"
+            />
+          </div>
+
+          <br />
+
+          <div class="newline">
+            <label for="message">Share us something...</label>
+          </div>
+          <div class="inputwrapper">
+            <textarea
+              name="message"
+              id="message"
+              cols="100"
+              rows="5"
+              placeholder="Let us know what you think :-)"
+            ></textarea>
+          </div>
+
+          <br />
+
+          <div class="inputwrapper">
+            <label for="email-sub">Sign me up for newsletter</label>
+            <input
+              type="checkbox"
+              name="email-sub"
+              id="email-sub"
+              value="yes, sign me up!"
+            />
+          </div>
+
+          <div class="inputwrapper">
+            <p>How would you like us to reach you?</p>
+            <input type="radio" name="contact-pref" id="Phone" value="Phone" />
+            <label for="Phone">Phone</label>
+            <input type="radio" name="contact-pref" id="Email" value="Email" />
+            <label for="Email">Email</label>
+          </div>
+
+          <div class="inputwrapper">
+            <select name="county" id="county">
+              <option value="Not chosen">Select County</option>
+              <option value="Limerick">Limerick</option>
+              <option value="Galway">Galway</option>
+              <option value="Dublin">Dublin</option>
+            </select>
+          </div>
+
+          <!-- <div class="inputwrapper">
+            <input type="date" />
+          </div> -->
+
+          <input type="submit" value="Submit" class="submit-button" />
+        </form>
+      </div>
+
+      <div class="cards">
+        <div class="card1">
+          <a href="https://www.google.com">
+            <h2>Book Online</h2>
+            <i class="fas fa-motorcycle"></i>
+            <p>
+              Book us and you never have to worry. All it takes is a button
+              click
+            </p>
+          </a>
+        </div>
+        <div class="card2">
+          <a href="https://www.google.com">
+            <h2>Service Types</h2>
+            <i class="fas fa-user-cog"></i>
+            <p>
+              Explore out our different offerings of services, right at your
+              door steps.
+            </p>
+          </a>
+        </div>
+        <div class="card3">
+          <a href="https://www.google.com">
+            <h2>Call for Advise</h2>
+            <i class="fas fa-phone-alt"></i>
+            <p>
+              Reach us through our 24 X 7 Call service. No need to press any IVR
+              option to reach our mechanics
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="testimonials">
+        <div class="tbox">
+          <p>
+            "I would like to personally thank you for your outstanding product.
+            You guys rock! It's all good. I can't say enough about Roar Cycles."
+          </p>
+          <p>- Tammara I.</p>
+        </div>
+
+        <div class="tbox">
+          <p>
+            "Roar Cycles is the most valuable business resource we have EVER
+            purchased. I will let my mum know about this, she could really make
+            use of Roar Cycles! Roar Cycles has completely surpassed our
+            expectations."
+          </p>
+          <p>- Floris V.</p>
+        </div>
+
+        <div class="tbox">
+          <p>
+            "I'm good to go. Roar Cycles is both attractive and highly
+            adaptable. I will refer everyone I know."
+          </p>
+          <p>- Carlin B.</p>
+        </div>
+
+        <div class="tbox">
+          <p>
+            "Roar Cycles impressed me on multiple levels. I would gladly pay
+            over 600 dollars for Roar Cycles. We can't understand how we've been
+            living without Roar Cycles."
+          </p>
+          <p>- Eve V.</p>
+        </div>
+
+        <div class="tbox">
+          <p>
+            "I don't know what else to say. Absolutely wonderful! You've saved
+            our business! After using Roar Cycles my business skyrocketed!"
+          </p>
+          <p>- Brier Q.</p>
+        </div>
+
+        <div class="tbox">
+          <p>
+            "Roar Cycles should be nominated for service of the year."
+          </p>
+          <p>- Elfrieda U.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

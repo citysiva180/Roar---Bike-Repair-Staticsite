@@ -1,0 +1,31 @@
+.navbutton {
+    background-color: aqua;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+/* This turns off the drop down box */
+.drop-downbox {
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+    z-index: 99;
+    margin-left: -30px;
+
+}
+
+.navbutton:hover .drop-downbox {
+    display: block;
+}
+
+.drop-downbox .navbutton {
+    background-color: greenyellow;
+}
+
+.drop-downbox .navbutton:hover {
+    background-color: magenta;
+    transition-duration: 0.5s;
+}

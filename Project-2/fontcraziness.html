@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      /* pixel is an absolute font measurement */
+      /* in google chrome the font size is always 16px */
+      .badsize {
+        font-size: 1.25rem;
+      }
+      /* Meanwhile rem and em are relative measurement */
+      /* While 3rem unit in font size enlarges the pixey by 16px * 3 since(3rem) */
+      .goodsize {
+        font-size: 3em;
+      }
+      .mybox {
+        font-size: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Understand the implementation of absolute fonts and relative fonts.  -->
+    <!-- Relative fonts size up to the website size -->
+    <!-- Absolute font size / units does not change with size of website and remains the same everywhere -->
+    <p class="badsize">SivaRajan</p>
+    <p class="goodsize">SivaRajan</p>
+    <div classs="myBox">
+      <p class="goodsize">Pickle</p>
+    </div>
+  </body>
+</html>
